@@ -1,0 +1,4 @@
+domain,admin_username,admin_password,email,first_name,last_name,run,cross_tenant_domain
+carbon.super,admin,admin,,,,false,adp-example.com
+adp-example.com,admin,admin,john.doe@adp-example.com,John,Doe,true,adp-sample.com
+adp-sample.com,admin,admin,jane.doe@adp-sample.com,Jane,Doe,true,carbon.super
