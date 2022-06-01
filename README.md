@@ -8,4 +8,14 @@ This JMeter script will populate sample data in WSO2 API Manager.
 4. Open APIM Data Populator Plan.jmx in JMeter
 5. Goto APIM Data Populator Plan → User Defined Variables and change variable values according to the APIM version
 6. Disable not supported HTTP Requests for the APIM version
-7. Click on start button (APIM should be running in background)
+7. Click on start button
+
+Note:
+
+APIM should be running in background with following configs
+```
+[apim.devportal]
+enable_cross_tenant_subscriptions = true
+enable_application_sharing = true
+application_sharing_type = "default"
+```
