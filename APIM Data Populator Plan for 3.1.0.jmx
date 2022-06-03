@@ -26,7 +26,7 @@
           </elementProp>
           <elementProp name="dcr_path" elementType="Argument">
             <stringProp name="Argument.name">dcr_path</stringProp>
-            <stringProp name="Argument.value">/client-registration/v0.15/register</stringProp>
+            <stringProp name="Argument.value">/client-registration/v0.16/register</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="token_path" elementType="Argument">
@@ -46,17 +46,17 @@
           </elementProp>
           <elementProp name="admin_path" elementType="Argument">
             <stringProp name="Argument.name">admin_path</stringProp>
-            <stringProp name="Argument.value">/api/am/admin/v0.15</stringProp>
+            <stringProp name="Argument.value">/api/am/admin/v0.16</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="publisher_path" elementType="Argument">
             <stringProp name="Argument.name">publisher_path</stringProp>
-            <stringProp name="Argument.value">/api/am/publisher/v1.0</stringProp>
+            <stringProp name="Argument.value">/api/am/publisher/v1.1</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="devportal_path" elementType="Argument">
             <stringProp name="Argument.name">devportal_path</stringProp>
-            <stringProp name="Argument.value">/api/am/store/v1.0</stringProp>
+            <stringProp name="Argument.value">/api/am/store/v1</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="counter" elementType="Argument">
@@ -2963,8 +2963,8 @@
         <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Import OAS3 REST API" enabled="true">
           <elementProp name="HTTPsampler.Files" elementType="HTTPFileArgs">
             <collectionProp name="HTTPFileArgs.files">
-              <elementProp name="${adp_home}/resources/oas_v3.json" elementType="HTTPFileArg">
-                <stringProp name="File.path">${adp_home}/resources/oas_v3.json</stringProp>
+              <elementProp name="${adp_home}/resources/oas_v3_31.json" elementType="HTTPFileArg">
+                <stringProp name="File.path">${adp_home}/resources/oas_v3_31.json</stringProp>
                 <stringProp name="File.paramname">file</stringProp>
                 <stringProp name="File.mimetype">application/json</stringProp>
               </elementProp>
@@ -4979,7 +4979,6 @@
    &quot;context&quot;:&quot;/adp-api-product&quot;,&#xd;
    &quot;description&quot;:null,&#xd;
    &quot;provider&quot;:&quot;adp_pub_user&quot;,&#xd;
-   &quot;thumbnailUri&quot;:&quot;/api-products/${api_product_id}/thumbnail&quot;,&#xd;
    &quot;state&quot;:&quot;PUBLISHED&quot;,&#xd;
    &quot;enableSchemaValidation&quot;:false,&#xd;
    &quot;responseCachingEnabled&quot;:false,&#xd;
@@ -5992,8 +5991,7 @@
                 <stringProp name="Argument.value">{&#xd;
    &quot;apiId&quot;:&quot;${rest_api_id}&quot;,&#xd;
    &quot;applicationId&quot;:&quot;${application_id}&quot;,&#xd;
-   &quot;throttlingPolicy&quot;:&quot;ADPBrass&quot;,&#xd;
-   &quot;type&quot;: &quot;API&quot;&#xd;
+   &quot;throttlingPolicy&quot;:&quot;ADPBrass&quot;&#xd;
 }</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
               </elementProp>
@@ -6073,8 +6071,7 @@
                 <stringProp name="Argument.value">{&#xd;
    &quot;apiId&quot;:&quot;${oas2_rest_api_id}&quot;,&#xd;
    &quot;applicationId&quot;:&quot;${application_id}&quot;,&#xd;
-   &quot;throttlingPolicy&quot;:&quot;Unlimited&quot;,&#xd;
-   &quot;type&quot;: &quot;API&quot;&#xd;
+   &quot;throttlingPolicy&quot;:&quot;Unlimited&quot;&#xd;
 }</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
               </elementProp>
@@ -6154,8 +6151,7 @@
                 <stringProp name="Argument.value">{&#xd;
    &quot;apiId&quot;:&quot;${oas3_rest_api_id}&quot;,&#xd;
    &quot;applicationId&quot;:&quot;${application_id}&quot;,&#xd;
-   &quot;throttlingPolicy&quot;:&quot;Unlimited&quot;,&#xd;
-   &quot;type&quot;: &quot;API&quot;&#xd;
+   &quot;throttlingPolicy&quot;:&quot;Unlimited&quot;&#xd;
 }</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
               </elementProp>
@@ -6782,8 +6778,7 @@ vars.put(&quot;subscription_scopes&quot;, &quot;[\&quot;&quot; + String.join(&qu
                 <stringProp name="Argument.value">{&#xd;
    &quot;apiId&quot;:&quot;${cts_api_id}&quot;,&#xd;
    &quot;applicationId&quot;:&quot;${cts_application_id}&quot;,&#xd;
-   &quot;throttlingPolicy&quot;:&quot;Unlimited&quot;,&#xd;
-   &quot;type&quot;:&quot;API&quot;&#xd;
+   &quot;throttlingPolicy&quot;:&quot;Unlimited&quot;&#xd;
 }</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
               </elementProp>
