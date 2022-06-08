@@ -25,7 +25,7 @@ application_sharing_type = "default"
 3. Start the WireMock server by this command
 
 ```
-java -jar wiremock-jre8-standalone-2.33.2.jar --https-port 8081 --https-keystore wso2carbon.jks  --keystore-password wso2carbon --key-manager-password wso2carbon
+java -jar wiremock-jre8-standalone-2.33.2.jar --port 8090 --https-port 8091 --https-keystore wso2carbon.jks  --keystore-password wso2carbon --key-manager-password wso2carbon
 ```
 
-4. To test, call http://localhost:8080/hello or https://localhost:8081/hello 
+4. To test, call http://localhost:8090/hello or https://localhost:8091/hello 
