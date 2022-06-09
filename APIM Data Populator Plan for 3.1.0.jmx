@@ -2711,7 +2711,7 @@
    ],&#xd;
    &quot;endpointSecurity&quot;:null,&#xd;
    &quot;gatewayEnvironments&quot;:[&#xd;
-      &#xd;
+      &quot;Production and Sandbox&quot;&#xd;
    ],&#xd;
    &quot;labels&quot;:[&#xd;
       &#xd;
@@ -3249,7 +3249,7 @@
    ],&#xd;
    &quot;endpointSecurity&quot;:null,&#xd;
    &quot;gatewayEnvironments&quot;:[&#xd;
-      &#xd;
+      &quot;Production and Sandbox&quot;&#xd;
    ],&#xd;
    &quot;labels&quot;:[&#xd;
       &#xd;
@@ -3584,7 +3584,7 @@
    ],&#xd;
    &quot;endpointSecurity&quot;:null,&#xd;
    &quot;gatewayEnvironments&quot;:[&#xd;
-      &#xd;
+      &quot;Production and Sandbox&quot;&#xd;
    ],&#xd;
    &quot;labels&quot;:[&#xd;
       &#xd;
@@ -3942,7 +3942,7 @@
    ],&#xd;
    &quot;endpointSecurity&quot;:null,&#xd;
    &quot;gatewayEnvironments&quot;:[&#xd;
-      &#xd;
+      &quot;Production and Sandbox&quot;&#xd;
    ],&#xd;
    &quot;labels&quot;:[&#xd;
       &#xd;
@@ -5160,7 +5160,7 @@
       &#xd;
    ],&#xd;
    &quot;gatewayEnvironments&quot;:[&#xd;
-      &#xd;
+      &quot;Production and Sandbox&quot;&#xd;
    ],&#xd;
    &quot;apiType&quot;:&quot;APIProduct&quot;,&#xd;
    &quot;transport&quot;:[&#xd;
