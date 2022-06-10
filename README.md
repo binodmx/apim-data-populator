@@ -25,5 +25,17 @@ application_sharing_type = "default"
 ```
 java -jar wiremock-jre8-standalone-2.33.2.jar --port 8090 --https-port 8091 --https-keystore wso2carbon.jks  --keystore-password wso2carbon --key-manager-password wso2carbon
 ```
-
 4. To test, call http://localhost:8090/hello or https://localhost:8091/hello 
+
+# Starting StarWars GraphQL Server
+1. Download or clone https://github.com/wso2/samples-apim.git
+2. Navigate to `samples-apim/websocket-backend`
+3. Run `npm install`
+4. Run `npm start`
+5. To test, use http://localhost:8080/graphql endpoint
+
+# Starting Chats WebSocket Server
+1. Download or clone https://github.com/wso2/samples-apim.git
+2. Navigate to `samples-apim/graphql-backend`
+3. Run `npm install`
+4. Run `npm start`
