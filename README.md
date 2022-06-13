@@ -29,7 +29,7 @@ java -jar wiremock-jre8-standalone-2.33.2.jar --port 8090 --https-port 8091 --ht
 
 # Starting StarWars GraphQL Server
 1. Download or clone https://github.com/wso2/samples-apim.git
-2. Navigate to `samples-apim/websocket-backend`
+2. Navigate to `samples-apim/streaming-api-backends/websocket-backend`
 3. Run `npm install`
 4. Run `npm start`
 5. To test, use http://localhost:8080/graphql endpoint
