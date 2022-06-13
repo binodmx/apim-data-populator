@@ -2325,7 +2325,7 @@
                 <stringProp name="Argument.value">{&#xd;
    &quot;name&quot;: &quot;adp_log_in_message&quot;,&#xd;
    &quot;type&quot;: &quot;in&quot;,&#xd;
-   &quot;config&quot;: &quot;&lt;sequence xmlns=\&quot;http://ws.apache.org/ns/synapse\&quot; name=\&quot;log_in_message\&quot;&gt;&lt;log level=\&quot;full\&quot;&gt;&lt;property name=\&quot;IN_MESSAGE\&quot; value=\&quot;IN_MESSAGE\&quot;/&gt;&lt;/log&gt;&lt;/sequence&gt;&quot;&#xd;
+   &quot;config&quot;: &quot;&lt;sequence xmlns=\&quot;http://ws.apache.org/ns/synapse\&quot; name=\&quot;adp_log_in_message\&quot;&gt;&lt;log level=\&quot;full\&quot;&gt;&lt;property name=\&quot;IN_MESSAGE\&quot; value=\&quot;IN_MESSAGE\&quot;/&gt;&lt;/log&gt;&lt;/sequence&gt;&quot;&#xd;
 }</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
               </elementProp>
