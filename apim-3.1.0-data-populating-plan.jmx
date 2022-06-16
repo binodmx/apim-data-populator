@@ -2252,7 +2252,7 @@
       &#xd;
    ],&#xd;
    &quot;mediationPolicies&quot;:[${in_mediation_policy},${out_mediation_policy},${fault_mediation_policy}],&#xd;
-   &quot;subscriptionAvailability&quot;:&quot;ALL_TENANTS&quot;,&#xd;
+   &quot;subscriptionAvailability&quot;:&quot;CURRENT_TENANT&quot;,&#xd;
    &quot;subscriptionAvailableTenants&quot;:[&#xd;
       &#xd;
    ],&#xd;
@@ -2719,7 +2719,7 @@
    &quot;mediationPolicies&quot;:[&#xd;
       &#xd;
    ],&#xd;
-   &quot;subscriptionAvailability&quot;:&quot;ALL_TENANTS&quot;,&#xd;
+   &quot;subscriptionAvailability&quot;:&quot;CURRENT_TENANT&quot;,&#xd;
    &quot;subscriptionAvailableTenants&quot;:[&#xd;
       &#xd;
    ],&#xd;
@@ -3961,7 +3961,7 @@
          &quot;shared&quot;:true&#xd;
       }&#xd;
    ],&#xd;
-   &quot;subscriptionAvailability&quot;:&quot;ALL_TENANTS&quot;,&#xd;
+   &quot;subscriptionAvailability&quot;:&quot;CURRENT_TENANT&quot;,&#xd;
    &quot;subscriptionAvailableTenants&quot;:[&#xd;
       &#xd;
    ],&#xd;
@@ -4373,7 +4373,7 @@
    &quot;mediationPolicies&quot;:[&#xd;
       &#xd;
    ],&#xd;
-   &quot;subscriptionAvailability&quot;:&quot;ALL_TENANTS&quot;,&#xd;
+   &quot;subscriptionAvailability&quot;:&quot;CURRENT_TENANT&quot;,&#xd;
    &quot;subscriptionAvailableTenants&quot;:[&#xd;
       &#xd;
    ],&#xd;
@@ -5179,7 +5179,7 @@
       &quot;oauth2&quot;,&#xd;
       &quot;oauth_basic_auth_api_key_mandatory&quot;&#xd;
    ],&#xd;
-   &quot;subscriptionAvailability&quot;:&quot;ALL_TENANTS&quot;,&#xd;
+   &quot;subscriptionAvailability&quot;:&quot;CURRENT_TENANT&quot;,&#xd;
    &quot;subscriptionAvailableTenants&quot;:[&#xd;
       &#xd;
    ],&#xd;

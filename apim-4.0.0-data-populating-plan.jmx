@@ -4805,7 +4805,7 @@
    &quot;mediationPolicies&quot;:[&#xd;
       &#xd;
    ],&#xd;
-   &quot;subscriptionAvailability&quot;:&quot;CURRENT_TENANT&quot;,&#xd;
+   &quot;subscriptionAvailability&quot;:&quot;ALL_TENANTS&quot;,&#xd;
    &quot;subscriptionAvailableTenants&quot;:[&#xd;
       &#xd;
    ],&#xd;
@@ -8621,7 +8621,7 @@
         &quot;basic_auth&quot;,&#xd;
         &quot;api_key&quot;&#xd;
     ],&#xd;
-    &quot;subscriptionAvailability&quot;: &quot;ALL_TENANTS&quot;,&#xd;
+    &quot;subscriptionAvailability&quot;: &quot;CURRENT_TENANT&quot;,&#xd;
     &quot;subscriptionAvailableTenants&quot;: [&#xd;
 &#xd;
     ],&#xd;
