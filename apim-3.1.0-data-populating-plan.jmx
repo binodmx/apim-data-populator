@@ -6441,7 +6441,7 @@
           </ResponseAssertion>
           <hashTree/>
           <JSONPostProcessor guiclass="JSONPostProcessorGui" testclass="JSONPostProcessor" testname="JSON Extractor" enabled="true">
-            <stringProp name="JSONPostProcessor.referenceNames">oas3_subscription_id</stringProp>
+            <stringProp name="JSONPostProcessor.referenceNames">soap_subscription_id</stringProp>
             <stringProp name="JSONPostProcessor.jsonPathExprs">$.subscriptionId</stringProp>
             <stringProp name="JSONPostProcessor.match_numbers"></stringProp>
           </JSONPostProcessor>
@@ -6521,7 +6521,7 @@
           </ResponseAssertion>
           <hashTree/>
           <JSONPostProcessor guiclass="JSONPostProcessorGui" testclass="JSONPostProcessor" testname="JSON Extractor" enabled="true">
-            <stringProp name="JSONPostProcessor.referenceNames">oas3_subscription_id</stringProp>
+            <stringProp name="JSONPostProcessor.referenceNames">graphql_subscription_id</stringProp>
             <stringProp name="JSONPostProcessor.jsonPathExprs">$.subscriptionId</stringProp>
             <stringProp name="JSONPostProcessor.match_numbers"></stringProp>
           </JSONPostProcessor>
@@ -6601,7 +6601,7 @@
           </ResponseAssertion>
           <hashTree/>
           <JSONPostProcessor guiclass="JSONPostProcessorGui" testclass="JSONPostProcessor" testname="JSON Extractor" enabled="true">
-            <stringProp name="JSONPostProcessor.referenceNames">oas3_subscription_id</stringProp>
+            <stringProp name="JSONPostProcessor.referenceNames">websocket_subscription_id</stringProp>
             <stringProp name="JSONPostProcessor.jsonPathExprs">$.subscriptionId</stringProp>
             <stringProp name="JSONPostProcessor.match_numbers"></stringProp>
           </JSONPostProcessor>
@@ -6681,7 +6681,7 @@
           </ResponseAssertion>
           <hashTree/>
           <JSONPostProcessor guiclass="JSONPostProcessorGui" testclass="JSONPostProcessor" testname="JSON Extractor" enabled="true">
-            <stringProp name="JSONPostProcessor.referenceNames">oas3_subscription_id</stringProp>
+            <stringProp name="JSONPostProcessor.referenceNames">apiproduct_subscription_id</stringProp>
             <stringProp name="JSONPostProcessor.jsonPathExprs">$.subscriptionId</stringProp>
             <stringProp name="JSONPostProcessor.match_numbers"></stringProp>
           </JSONPostProcessor>
