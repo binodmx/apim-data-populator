@@ -224,7 +224,7 @@
             <AuthManager guiclass="AuthPanel" testclass="AuthManager" testname="HTTP Authorization Manager" enabled="true">
               <collectionProp name="AuthManager.auth_list">
                 <elementProp name="" elementType="Authorization">
-                  <stringProp name="Authorization.url">https://localhost:9443</stringProp>
+                  <stringProp name="Authorization.url">https://${host}:${https_port}</stringProp>
                   <stringProp name="Authorization.username">${super_admin_username}</stringProp>
                   <stringProp name="Authorization.password">${super_admin_password}</stringProp>
                   <stringProp name="Authorization.domain"></stringProp>
@@ -325,7 +325,7 @@
             <AuthManager guiclass="AuthPanel" testclass="AuthManager" testname="HTTP Authorization Manager" enabled="true">
               <collectionProp name="AuthManager.auth_list">
                 <elementProp name="" elementType="Authorization">
-                  <stringProp name="Authorization.url">https://localhost:9443</stringProp>
+                  <stringProp name="Authorization.url">https://${host}:${https_port}</stringProp>
                   <stringProp name="Authorization.username">${admin_username}@${domain}</stringProp>
                   <stringProp name="Authorization.password">${admin_password}</stringProp>
                   <stringProp name="Authorization.domain"></stringProp>
@@ -426,7 +426,7 @@
             <AuthManager guiclass="AuthPanel" testclass="AuthManager" testname="HTTP Authorization Manager" enabled="true">
               <collectionProp name="AuthManager.auth_list">
                 <elementProp name="" elementType="Authorization">
-                  <stringProp name="Authorization.url">https://localhost:9443</stringProp>
+                  <stringProp name="Authorization.url">https://${host}:${https_port}</stringProp>
                   <stringProp name="Authorization.username">${admin_username}@${domain}</stringProp>
                   <stringProp name="Authorization.password">${admin_password}</stringProp>
                   <stringProp name="Authorization.domain"></stringProp>
@@ -512,7 +512,7 @@
           <AuthManager guiclass="AuthPanel" testclass="AuthManager" testname="HTTP Authorization Manager" enabled="true">
             <collectionProp name="AuthManager.auth_list">
               <elementProp name="" elementType="Authorization">
-                <stringProp name="Authorization.url">https://localhost:9443</stringProp>
+                <stringProp name="Authorization.url">https://${host}:${https_port}</stringProp>
                 <stringProp name="Authorization.username">${admin_username}@${domain}</stringProp>
                 <stringProp name="Authorization.password">${admin_password}</stringProp>
                 <stringProp name="Authorization.domain"></stringProp>
@@ -603,7 +603,7 @@
           <AuthManager guiclass="AuthPanel" testclass="AuthManager" testname="HTTP Authorization Manager" enabled="true">
             <collectionProp name="AuthManager.auth_list">
               <elementProp name="" elementType="Authorization">
-                <stringProp name="Authorization.url">https://localhost:9443</stringProp>
+                <stringProp name="Authorization.url">https://${host}:${https_port}</stringProp>
                 <stringProp name="Authorization.username">${client_id}</stringProp>
                 <stringProp name="Authorization.password">${client_secret}</stringProp>
                 <stringProp name="Authorization.domain"></stringProp>
@@ -1336,7 +1336,7 @@
           <AuthManager guiclass="AuthPanel" testclass="AuthManager" testname="HTTP Authorization Manager" enabled="true">
             <collectionProp name="AuthManager.auth_list">
               <elementProp name="" elementType="Authorization">
-                <stringProp name="Authorization.url">https://localhost:9443</stringProp>
+                <stringProp name="Authorization.url">https://${host}:${https_port}</stringProp>
                 <stringProp name="Authorization.username">adp_crt_user@${domain}</stringProp>
                 <stringProp name="Authorization.password">adp_crt_user</stringProp>
                 <stringProp name="Authorization.domain"></stringProp>
@@ -1427,7 +1427,7 @@
           <AuthManager guiclass="AuthPanel" testclass="AuthManager" testname="HTTP Authorization Manager" enabled="true">
             <collectionProp name="AuthManager.auth_list">
               <elementProp name="" elementType="Authorization">
-                <stringProp name="Authorization.url">https://localhost:9443</stringProp>
+                <stringProp name="Authorization.url">https://${host}:${https_port}</stringProp>
                 <stringProp name="Authorization.username">${crt_client_id}</stringProp>
                 <stringProp name="Authorization.password">${crt_client_secret}</stringProp>
                 <stringProp name="Authorization.domain"></stringProp>
@@ -1518,7 +1518,7 @@
           <AuthManager guiclass="AuthPanel" testclass="AuthManager" testname="HTTP Authorization Manager" enabled="true">
             <collectionProp name="AuthManager.auth_list">
               <elementProp name="" elementType="Authorization">
-                <stringProp name="Authorization.url">https://localhost:9443</stringProp>
+                <stringProp name="Authorization.url">https://${host}:${https_port}</stringProp>
                 <stringProp name="Authorization.username">adp_pub_user@${domain}</stringProp>
                 <stringProp name="Authorization.password">adp_pub_user</stringProp>
                 <stringProp name="Authorization.domain"></stringProp>
@@ -1609,7 +1609,7 @@
           <AuthManager guiclass="AuthPanel" testclass="AuthManager" testname="HTTP Authorization Manager" enabled="true">
             <collectionProp name="AuthManager.auth_list">
               <elementProp name="" elementType="Authorization">
-                <stringProp name="Authorization.url">https://localhost:9443</stringProp>
+                <stringProp name="Authorization.url">https://${host}:${https_port}</stringProp>
                 <stringProp name="Authorization.username">${pub_client_id}</stringProp>
                 <stringProp name="Authorization.password">${pub_client_secret}</stringProp>
                 <stringProp name="Authorization.domain"></stringProp>
@@ -9398,7 +9398,7 @@
           <AuthManager guiclass="AuthPanel" testclass="AuthManager" testname="HTTP Authorization Manager" enabled="true">
             <collectionProp name="AuthManager.auth_list">
               <elementProp name="" elementType="Authorization">
-                <stringProp name="Authorization.url">https://localhost:9443</stringProp>
+                <stringProp name="Authorization.url">https://${host}:${https_port}</stringProp>
                 <stringProp name="Authorization.username">adp_sub_user@${domain}</stringProp>
                 <stringProp name="Authorization.password">adp_sub_user</stringProp>
                 <stringProp name="Authorization.domain"></stringProp>
@@ -9489,7 +9489,7 @@
           <AuthManager guiclass="AuthPanel" testclass="AuthManager" testname="HTTP Authorization Manager" enabled="true">
             <collectionProp name="AuthManager.auth_list">
               <elementProp name="" elementType="Authorization">
-                <stringProp name="Authorization.url">https://localhost:9443</stringProp>
+                <stringProp name="Authorization.url">https://${host}:${https_port}</stringProp>
                 <stringProp name="Authorization.username">${sub_client_id}</stringProp>
                 <stringProp name="Authorization.password">${sub_client_secret}</stringProp>
                 <stringProp name="Authorization.domain"></stringProp>
@@ -10283,7 +10283,7 @@ vars.put(&quot;subscription_scopes&quot;, &quot;[\&quot;&quot; + String.join(&qu
             <collectionProp name="Arguments.arguments">
               <elementProp name="" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                <stringProp name="Argument.value">isSaaSApp=true&amp;http%3A%2F%2Fwso2.org%2Fclaims%2Fgivenname=Alex&amp;http%3A%2F%2Fwso2.org%2Fclaims%2Flastname=Walker&amp;username=adp_dev_user${suffix}&amp;password=adp_dev_user&amp;password2=adp_dev_user&amp;http%3A%2F%2Fwso2.org%2Fclaims%2Femailaddress=alex%40${domain}&amp;callback=https%3A%2F%2Flocalhost%3A9443%2Fauthenticationendpoint%2Flogin.do%3Fclient_id%3DrLvoAJiub44zvKu0OI6nZa1V7Dsa%26commonAuthCallerPath%3D%2Foauth2%2Fauthorize%26forceAuth%3Dfalse%26passiveAuth%3Dfalse%26redirect_uri%3Dhttps%3A%2F%2Flocalhost%3A9443%2Fdevportal%2Fservices%2Fauth%2Fcallback%2Flogin%26response_type%3Dcode%26scope%3Dapim%3Aadmin+apim%3Aapi_key+apim%3Aapp_import_export+apim%3Aapp_manage+apim%3Astore_settings+apim%3Asub_alert_manage+apim%3Asub_manage+apim%3Asubscribe+openid%26state%3D%2Fapis%26tenantDomain%3Dcarbon.super%26sessionDataKey%3D45d41586-0dd1-40aa-9ec3-e7fac81759fe%26relyingParty%3DrLvoAJiub44zvKu0OI6nZa1V7Dsa%26type%3Doidc%26sp%3Dapim_devportal%26isSaaSApp%3Dtrue%26authenticators%3DBasicAuthenticator%3ALOCAL&amp;http%3A%2F%2Fwso2.org%2Fclaims%2Forganization=adp-application-group&amp;http%3A%2F%2Fwso2.org%2Fclaims%2Ftelephone=&amp;http%3A%2F%2Fwso2.org%2Fclaims%2Fim=&amp;http%3A%2F%2Fwso2.org%2Fclaims%2Fcountry=&amp;http%3A%2F%2Fwso2.org%2Fclaims%2Fmobile=&amp;http%3A%2F%2Fwso2.org%2Fclaims%2Furl=&amp;isSelfRegistrationWithVerification=true&amp;tenantDomain=${domain}</stringProp>
+                <stringProp name="Argument.value">isSaaSApp=true&amp;http%3A%2F%2Fwso2.org%2Fclaims%2Fgivenname=Alex&amp;http%3A%2F%2Fwso2.org%2Fclaims%2Flastname=Walker&amp;username=adp_dev_user${suffix}&amp;password=adp_dev_user&amp;password2=adp_dev_user&amp;http%3A%2F%2Fwso2.org%2Fclaims%2Femailaddress=alex%40${domain}&amp;callback=https%3A%2F%2F${host}%3A${https_port}%2Fauthenticationendpoint%2Flogin.do%3Fclient_id%3DrLvoAJiub44zvKu0OI6nZa1V7Dsa%26commonAuthCallerPath%3D%2Foauth2%2Fauthorize%26forceAuth%3Dfalse%26passiveAuth%3Dfalse%26redirect_uri%3Dhttps%3A%2F%2F${host}%3A${https_port}%2Fdevportal%2Fservices%2Fauth%2Fcallback%2Flogin%26response_type%3Dcode%26scope%3Dapim%3Aadmin+apim%3Aapi_key+apim%3Aapp_import_export+apim%3Aapp_manage+apim%3Astore_settings+apim%3Asub_alert_manage+apim%3Asub_manage+apim%3Asubscribe+openid%26state%3D%2Fapis%26tenantDomain%3Dcarbon.super%26sessionDataKey%3D45d41586-0dd1-40aa-9ec3-e7fac81759fe%26relyingParty%3DrLvoAJiub44zvKu0OI6nZa1V7Dsa%26type%3Doidc%26sp%3Dapim_devportal%26isSaaSApp%3Dtrue%26authenticators%3DBasicAuthenticator%3ALOCAL&amp;http%3A%2F%2Fwso2.org%2Fclaims%2Forganization=adp-application-group&amp;http%3A%2F%2Fwso2.org%2Fclaims%2Ftelephone=&amp;http%3A%2F%2Fwso2.org%2Fclaims%2Fim=&amp;http%3A%2F%2Fwso2.org%2Fclaims%2Fcountry=&amp;http%3A%2F%2Fwso2.org%2Fclaims%2Fmobile=&amp;http%3A%2F%2Fwso2.org%2Fclaims%2Furl=&amp;isSelfRegistrationWithVerification=true&amp;tenantDomain=${domain}</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
               </elementProp>
             </collectionProp>

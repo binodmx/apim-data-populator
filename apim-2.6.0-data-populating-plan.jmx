@@ -229,7 +229,7 @@
             <AuthManager guiclass="AuthPanel" testclass="AuthManager" testname="HTTP Authorization Manager" enabled="true">
               <collectionProp name="AuthManager.auth_list">
                 <elementProp name="" elementType="Authorization">
-                  <stringProp name="Authorization.url">https://localhost:9443</stringProp>
+                  <stringProp name="Authorization.url">https://${host}:${https_port}</stringProp>
                   <stringProp name="Authorization.username">${super_admin_username}</stringProp>
                   <stringProp name="Authorization.password">${super_admin_password}</stringProp>
                   <stringProp name="Authorization.domain"></stringProp>
@@ -330,7 +330,7 @@
             <AuthManager guiclass="AuthPanel" testclass="AuthManager" testname="HTTP Authorization Manager" enabled="true">
               <collectionProp name="AuthManager.auth_list">
                 <elementProp name="" elementType="Authorization">
-                  <stringProp name="Authorization.url">https://localhost:9443</stringProp>
+                  <stringProp name="Authorization.url">https://${host}:${https_port}</stringProp>
                   <stringProp name="Authorization.username">${admin_username}@${domain}</stringProp>
                   <stringProp name="Authorization.password">${admin_password}</stringProp>
                   <stringProp name="Authorization.domain"></stringProp>
@@ -431,7 +431,7 @@
             <AuthManager guiclass="AuthPanel" testclass="AuthManager" testname="HTTP Authorization Manager" enabled="true">
               <collectionProp name="AuthManager.auth_list">
                 <elementProp name="" elementType="Authorization">
-                  <stringProp name="Authorization.url">https://localhost:9443</stringProp>
+                  <stringProp name="Authorization.url">https://${host}:${https_port}</stringProp>
                   <stringProp name="Authorization.username">${admin_username}@${domain}</stringProp>
                   <stringProp name="Authorization.password">${admin_password}</stringProp>
                   <stringProp name="Authorization.domain"></stringProp>
@@ -543,7 +543,7 @@
             <AuthManager guiclass="AuthPanel" testclass="AuthManager" testname="HTTP Authorization Manager" enabled="true">
               <collectionProp name="AuthManager.auth_list">
                 <elementProp name="" elementType="Authorization">
-                  <stringProp name="Authorization.url">https://localhost:9443</stringProp>
+                  <stringProp name="Authorization.url">https://${host}:${https_port}</stringProp>
                   <stringProp name="Authorization.username">${admin_username}</stringProp>
                   <stringProp name="Authorization.password">${admin_password}</stringProp>
                   <stringProp name="Authorization.domain"></stringProp>
@@ -640,7 +640,7 @@
             <AuthManager guiclass="AuthPanel" testclass="AuthManager" testname="HTTP Authorization Manager" enabled="true">
               <collectionProp name="AuthManager.auth_list">
                 <elementProp name="" elementType="Authorization">
-                  <stringProp name="Authorization.url">https://localhost:9443</stringProp>
+                  <stringProp name="Authorization.url">https://${host}:${https_port}</stringProp>
                   <stringProp name="Authorization.username">adp_crt_user</stringProp>
                   <stringProp name="Authorization.password">adp_crt_user</stringProp>
                   <stringProp name="Authorization.domain"></stringProp>
@@ -737,7 +737,7 @@
             <AuthManager guiclass="AuthPanel" testclass="AuthManager" testname="HTTP Authorization Manager" enabled="true">
               <collectionProp name="AuthManager.auth_list">
                 <elementProp name="" elementType="Authorization">
-                  <stringProp name="Authorization.url">https://localhost:9443</stringProp>
+                  <stringProp name="Authorization.url">https://${host}:${https_port}</stringProp>
                   <stringProp name="Authorization.username">adp_pub_user</stringProp>
                   <stringProp name="Authorization.password">adp_pub_user</stringProp>
                   <stringProp name="Authorization.domain"></stringProp>
@@ -834,7 +834,7 @@
             <AuthManager guiclass="AuthPanel" testclass="AuthManager" testname="HTTP Authorization Manager" enabled="true">
               <collectionProp name="AuthManager.auth_list">
                 <elementProp name="" elementType="Authorization">
-                  <stringProp name="Authorization.url">https://localhost:9443</stringProp>
+                  <stringProp name="Authorization.url">https://${host}:${https_port}</stringProp>
                   <stringProp name="Authorization.username">adp_sub_user</stringProp>
                   <stringProp name="Authorization.password">adp_sub_user</stringProp>
                   <stringProp name="Authorization.domain"></stringProp>
@@ -938,7 +938,7 @@
             <AuthManager guiclass="AuthPanel" testclass="AuthManager" testname="HTTP Authorization Manager" enabled="true">
               <collectionProp name="AuthManager.auth_list">
                 <elementProp name="" elementType="Authorization">
-                  <stringProp name="Authorization.url">https://localhost:9443</stringProp>
+                  <stringProp name="Authorization.url">https://${host}:${https_port}</stringProp>
                   <stringProp name="Authorization.username">${admin_username}@${domain}</stringProp>
                   <stringProp name="Authorization.password">${admin_password}</stringProp>
                   <stringProp name="Authorization.domain"></stringProp>
@@ -1035,7 +1035,7 @@
             <AuthManager guiclass="AuthPanel" testclass="AuthManager" testname="HTTP Authorization Manager" enabled="true">
               <collectionProp name="AuthManager.auth_list">
                 <elementProp name="" elementType="Authorization">
-                  <stringProp name="Authorization.url">https://localhost:9443</stringProp>
+                  <stringProp name="Authorization.url">https://${host}:${https_port}</stringProp>
                   <stringProp name="Authorization.username">adp_crt_user@${domain}</stringProp>
                   <stringProp name="Authorization.password">adp_crt_user</stringProp>
                   <stringProp name="Authorization.domain"></stringProp>
@@ -1132,7 +1132,7 @@
             <AuthManager guiclass="AuthPanel" testclass="AuthManager" testname="HTTP Authorization Manager" enabled="true">
               <collectionProp name="AuthManager.auth_list">
                 <elementProp name="" elementType="Authorization">
-                  <stringProp name="Authorization.url">https://localhost:9443</stringProp>
+                  <stringProp name="Authorization.url">https://${host}:${https_port}</stringProp>
                   <stringProp name="Authorization.username">adp_pub_user@${domain}</stringProp>
                   <stringProp name="Authorization.password">adp_pub_user</stringProp>
                   <stringProp name="Authorization.domain"></stringProp>
@@ -1229,7 +1229,7 @@
             <AuthManager guiclass="AuthPanel" testclass="AuthManager" testname="HTTP Authorization Manager" enabled="true">
               <collectionProp name="AuthManager.auth_list">
                 <elementProp name="" elementType="Authorization">
-                  <stringProp name="Authorization.url">https://localhost:9443</stringProp>
+                  <stringProp name="Authorization.url">https://${host}:${https_port}</stringProp>
                   <stringProp name="Authorization.username">adp_sub_user@${domain}</stringProp>
                   <stringProp name="Authorization.password">adp_sub_user</stringProp>
                   <stringProp name="Authorization.domain"></stringProp>
@@ -1321,7 +1321,7 @@
           <AuthManager guiclass="AuthPanel" testclass="AuthManager" testname="HTTP Authorization Manager" enabled="true">
             <collectionProp name="AuthManager.auth_list">
               <elementProp name="" elementType="Authorization">
-                <stringProp name="Authorization.url">https://localhost:9443</stringProp>
+                <stringProp name="Authorization.url">https://${host}:${https_port}</stringProp>
                 <stringProp name="Authorization.username">${client_id}</stringProp>
                 <stringProp name="Authorization.password">${client_secret}</stringProp>
                 <stringProp name="Authorization.domain"></stringProp>
@@ -1652,7 +1652,7 @@
           <AuthManager guiclass="AuthPanel" testclass="AuthManager" testname="HTTP Authorization Manager" enabled="true">
             <collectionProp name="AuthManager.auth_list">
               <elementProp name="" elementType="Authorization">
-                <stringProp name="Authorization.url">https://localhost:9443</stringProp>
+                <stringProp name="Authorization.url">https://${host}:${https_port}</stringProp>
                 <stringProp name="Authorization.username">${crt_client_id}</stringProp>
                 <stringProp name="Authorization.password">${crt_client_secret}</stringProp>
                 <stringProp name="Authorization.domain"></stringProp>
@@ -1737,7 +1737,7 @@
           <AuthManager guiclass="AuthPanel" testclass="AuthManager" testname="HTTP Authorization Manager" enabled="true">
             <collectionProp name="AuthManager.auth_list">
               <elementProp name="" elementType="Authorization">
-                <stringProp name="Authorization.url">https://localhost:9443</stringProp>
+                <stringProp name="Authorization.url">https://${host}:${https_port}</stringProp>
                 <stringProp name="Authorization.username">${pub_client_id}</stringProp>
                 <stringProp name="Authorization.password">${pub_client_secret}</stringProp>
                 <stringProp name="Authorization.domain"></stringProp>
@@ -4212,7 +4212,7 @@
           <AuthManager guiclass="AuthPanel" testclass="AuthManager" testname="HTTP Authorization Manager" enabled="true">
             <collectionProp name="AuthManager.auth_list">
               <elementProp name="" elementType="Authorization">
-                <stringProp name="Authorization.url">https://localhost:9443</stringProp>
+                <stringProp name="Authorization.url">https://${host}:${https_port}</stringProp>
                 <stringProp name="Authorization.username">${sub_client_id}</stringProp>
                 <stringProp name="Authorization.password">${sub_client_secret}</stringProp>
                 <stringProp name="Authorization.domain"></stringProp>
