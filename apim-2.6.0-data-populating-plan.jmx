@@ -1820,7 +1820,7 @@
     &quot;visibility&quot;: &quot;PUBLIC&quot;,&#xd;
     &quot;visibleRoles&quot;: [],&#xd;
     &quot;visibleTenants&quot;: [],&#xd;
-    &quot;endpointConfig&quot;: &quot;{\&quot;production_endpoints\&quot;:{\&quot;url\&quot;:\&quot;http://localhost:8090/\&quot;,\&quot;config\&quot;:null,\&quot;template_not_supported\&quot;:false},\&quot;sandbox_endpoints\&quot;:{\&quot;url\&quot;:\&quot;http://localhost:8090/\&quot;,\&quot;config\&quot;:null,\&quot;template_not_supported\&quot;:false},\&quot;endpoint_type\&quot;:\&quot;http\&quot;}&quot;,&#xd;
+    &quot;endpointConfig&quot;: &quot;{\&quot;production_endpoints\&quot;:{\&quot;url\&quot;:\&quot;http://localhost:8090\&quot;,\&quot;config\&quot;:null,\&quot;template_not_supported\&quot;:false},\&quot;sandbox_endpoints\&quot;:{\&quot;url\&quot;:\&quot;http://localhost:8090\&quot;,\&quot;config\&quot;:null,\&quot;template_not_supported\&quot;:false},\&quot;endpoint_type\&quot;:\&quot;http\&quot;}&quot;,&#xd;
     &quot;endpointSecurity&quot;: null,&#xd;
     &quot;gatewayEnvironments&quot;: &quot;Production and Sandbox&quot;,&#xd;
     &quot;labels&quot;: [],&#xd;
@@ -3902,9 +3902,9 @@
               <elementProp name="" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
                 <stringProp name="Argument.value">{&#xd;
-    &quot;name&quot;: &quot;ADPChatsAPI&quot;,&#xd;
+    &quot;name&quot;: &quot;ADPEchoWebSocketAPI&quot;,&#xd;
     &quot;description&quot;: null,&#xd;
-    &quot;context&quot;: &quot;/adp-chats&quot;,&#xd;
+    &quot;context&quot;: &quot;/adp-echowebsocket&quot;,&#xd;
     &quot;version&quot;: &quot;1.0.0&quot;,&#xd;
     &quot;provider&quot;: &quot;admin&quot;,&#xd;
     &quot;status&quot;: &quot;CREATED&quot;,&#xd;
@@ -3930,7 +3930,7 @@
     &quot;visibility&quot;: &quot;PUBLIC&quot;,&#xd;
     &quot;visibleRoles&quot;: [],&#xd;
     &quot;visibleTenants&quot;: [],&#xd;
-    &quot;endpointConfig&quot;: &quot;{\&quot;production_endpoints\&quot;:{\&quot;url\&quot;:\&quot;ws://localhost:8080\&quot;,\&quot;config\&quot;:null,\&quot;template_not_supported\&quot;:false},\&quot;sandbox_endpoints\&quot;:{\&quot;url\&quot;:\&quot;ws://localhost:8080\&quot;,\&quot;config\&quot;:null,\&quot;template_not_supported\&quot;:false},\&quot;endpoint_type\&quot;:\&quot;http\&quot;}&quot;,&#xd;
+    &quot;endpointConfig&quot;: &quot;{\&quot;production_endpoints\&quot;:{\&quot;url\&quot;:\&quot;ws://echo.websocket.org:80\&quot;,\&quot;config\&quot;:null,\&quot;template_not_supported\&quot;:false},\&quot;sandbox_endpoints\&quot;:{\&quot;url\&quot;:\&quot;ws://echo.websocket.org:80\&quot;,\&quot;config\&quot;:null,\&quot;template_not_supported\&quot;:false},\&quot;endpoint_type\&quot;:\&quot;http\&quot;}&quot;,&#xd;
     &quot;endpointSecurity&quot;: null,&#xd;
     &quot;gatewayEnvironments&quot;: &quot;Production and Sandbox&quot;,&#xd;
     &quot;labels&quot;: [],&#xd;
