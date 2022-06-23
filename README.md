@@ -9,13 +9,19 @@ JMeter script to populate sample data in WSO2 API Manager.
 4. Goto APIM Data Populator Plan → User Defined Variables and change `adp_home` variable to path to apim-data-populator directory
 5. Click on start button
 
-Note: APIM should be running in background with following configs
+### Note: 
+If APIM version >= 3.0.0, then add following configs to `deployment.toml`
 ```
 [apim.devportal]
 enable_cross_tenant_subscriptions = true
 enable_application_sharing = true
 application_sharing_type = "default"
 display_multiple_versions = true
+```
+If APIM version = 2.6.0, then uncomment or set following configs in `api-manager.xml`
+```
+<GroupingExtractor>org.wso2.carbon.apimgt.impl.DefaultGroupIDExtractorImpl</GroupingExtractor>
+<DisplayMultipleVersions>true</DisplayMultipleVersions>
 ```
 
 # Starting WireMock Server
